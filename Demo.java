@@ -7,7 +7,6 @@ public class Demo{
         List<String> list = Arrays.asList("a", "b", "c");
         list.stream().forEach(item->System.out.println(item));
         list.stream().forEach(item->System.out.println(item));
-        list.stream().forEach(item->System.out.println(item));
         List<String> rsltList = 
             list.stream().filter(item->"b".equals(item)).map(item->item + "1").collect(Collectors.toList());
         System.out.println(rsltList);
