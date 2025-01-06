@@ -11,5 +11,6 @@ public class Demo{
         List<String> rsltList = 
             list.stream().filter(item->"b".equals(item)).map(item->item + "1").collect(Collectors.toList());
         System.out.println(rsltList);
+        System.out.println("python");
     }
 }
